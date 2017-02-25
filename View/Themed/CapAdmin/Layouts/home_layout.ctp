@@ -106,14 +106,14 @@
 					<div class="row">
 						<div class="col-sm-8">
 							<h1 class="mainTitle"><i class = "ti-user"></i> Espace Conseillers </h1>
-							<span class="mainDescription">Cette interface vous permet de déposer une demande d'agéement, ainsi de suivre la progression de votre dossier.</span>
+							<span class="mainDescription">Cette interface vous permet de déposer une demande d'agréement, ainsi de suivre la progression de votre dossier.</span>
 						</div>
 						<ol class="breadcrumb">
 							<li>
 								<?php echo $this->Html->link('<span class = "ti-home"></span> Accueil', '/', array('escape' => false)); ?>
 							</li>
 							<li class="active">
-								<span>Espace Conseillers</span>
+								<span class = "ti-user"></span> Espace Conseillers
 							</li>
 						</ol>
 					</div>

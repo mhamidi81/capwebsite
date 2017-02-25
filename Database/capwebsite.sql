@@ -1579,9 +1579,9 @@ CREATE TABLE `cpm_edocuments` (
 --
 
 INSERT INTO `cpm_edocuments` (`id`, `name`, `icon`, `title`, `accepted_types`, `created`, `updated`) VALUES
-(1, 'Délégation de pouvoir', 'ti-wand', 'Téléversez svp le document de délégation de pouvoir', 'jpg,jpeg,png', '2015-07-24 00:00:00', '2015-07-24 00:00:00'),
-(2, 'Inscription CNSS', 'ti-pencil-alt', 'Téléversez svp le document de l''nscription à la CNSS', 'jpg,jpeg,png', '2015-07-24 00:00:00', '2015-07-24 00:00:00'),
-(3, 'Registre de commerce', 'ti-agenda', 'Téléversez svp le document de registre de commerce', 'jpg,jpeg,png', '2015-07-24 00:00:00', '2015-07-24 00:00:00');
+(1, 'Délégation de pouvoir', 'ti-wand', 'Attachez svp le document de délégation de pouvoir', 'jpg,jpeg,png', '2015-07-24 00:00:00', '2015-07-24 00:00:00'),
+(2, 'Inscription CNSS', 'ti-pencil-alt', 'Attachez svp le document de l''nscription à la CNSS', 'jpg,jpeg,png', '2015-07-24 00:00:00', '2015-07-24 00:00:00'),
+(3, 'Registre de commerce', 'ti-agenda', 'Attachez svp le document de registre de commerce', 'jpg,jpeg,png', '2015-07-24 00:00:00', '2015-07-24 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -3090,9 +3090,9 @@ CREATE TABLE `pfm_documents` (
 --
 
 INSERT INTO `pfm_documents` (`id`, `name`, `icon`, `title`, `accepted_types`, `created`, `updated`) VALUES
-(1, 'CIN', 'ti-id-badge', 'Téléversez svp une copie de votre CIN', 'jpg,jpeg,png', '2015-07-24 00:00:00', '2015-07-24 00:00:00'),
-(2, 'Diplôme', 'ti-medall', 'Téléversez svp une copie de votre diplôme', 'jpg,jpeg,png', '2015-07-24 00:00:00', '2015-07-24 00:00:00'),
-(3, 'Fiche anthropométrique  ou casier judiciaire', 'ti-file', 'Téléversez svp une copie de votre fiche anthropométrique  ou casier judiciaire', 'jpg,jpeg,png', '2015-07-24 00:00:00', '2015-07-24 00:00:00');
+(1, 'CIN', 'ti-id-badge', 'Attachez svp une copie de votre CIN', 'jpg,jpeg,png', '2015-07-24 00:00:00', '2015-07-24 00:00:00'),
+(2, 'Diplôme', 'ti-medall', 'Attachez svp une copie de votre diplôme', 'jpg,jpeg,png', '2015-07-24 00:00:00', '2015-07-24 00:00:00'),
+(3, 'Fiche anthropométrique  ou casier judiciaire', 'ti-file', 'Attachez svp une copie de votre fiche anthropométrique  ou casier judiciaire', 'jpg,jpeg,png', '2015-07-24 00:00:00', '2015-07-24 00:00:00');
 
 -- --------------------------------------------------------
 

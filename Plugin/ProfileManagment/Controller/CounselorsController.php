@@ -547,7 +547,7 @@ class CounselorsController extends ProfileManagmentAppController {
 
 		if($result = 'success')
 		{
-			$message =__d('request_managment',"L'étape 1 a été entregistrée avec succès");
+			$message =__d('request_managment',"L'étape (1) a été sauvegardée avec succès");
 		}
 
 		$data = array('message' =>  $message, 'result' => $result, 'errors' => $errors);
@@ -623,7 +623,7 @@ class CounselorsController extends ProfileManagmentAppController {
 		else
 		{
 			$result = 'success';
-			$message =__d('request_managment',"L'étape 2 a été entregistrée avec succès");
+			$message =__d('request_managment',"L'étape (2) a été sauvegardée avec succès");
 		}
 
 		$data = array('message' =>  $message, 'result' => $result, 'errors' => $errors);
@@ -641,7 +641,7 @@ class CounselorsController extends ProfileManagmentAppController {
 	{
 
     	$result = 'success';
-    	$message =__d('request_managment',"l'étape 3 à été enregistrée avec succès");    		
+    	$message =__d('request_managment',"l'étape (3) à été sauvegardée avec succès");    		
 
         $data = array('message' =>  $message, 'result' => $result, 'errors' => array());
         $this->set('data', $data);
@@ -754,7 +754,7 @@ class CounselorsController extends ProfileManagmentAppController {
 		$user['User']['phone'] = $this->request->data['User']['phone'];
 
 		if ($this->Counselor->User->save($user['User'])) {
-			$message =__d('request_managment','Votre profile a été mis à jour avec succé.');
+			$message =__d('request_managment','Votre profile a été mis à jour avec succès.');
 			$result = 'success';
 			$this->Session->write('Auth', $this->Counselor->User->read(null, $this->Auth->User('id')));
 		}

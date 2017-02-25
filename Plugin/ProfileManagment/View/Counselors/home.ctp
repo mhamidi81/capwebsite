@@ -199,7 +199,7 @@
 							<tr>
 								<td colspan = "6">
 									<h3 class="mainTitle" style = "text-align:center;">
-									<i class = "ti-face-sad fa-2x" style = "  font-size: 25px;"></i>	Vous n'avez envoyé aucune demande d'agéement
+									<i class = "ti-face-sad fa-2x" style = "  font-size: 25px;"></i>	Vous n'avez envoyé aucune demande d'agréement
 									</h3>
 								</td>
 							</tr>

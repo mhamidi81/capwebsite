@@ -207,7 +207,7 @@ $(document).ready(function() {
 			<div class="col-md-12">
 				<br/>
 				<div class="alert alert-danger" style = "display:none">
-					<strong>Ops! Une erreur est survenue lors du téléversement.</strong>
+					<strong>Oops! Une erreur est survenue lors du téléversement.</strong>
 				</div>
 				<?php if(empty($this->request->data['Counselor']['image'])) {?>
 				<table role="presentation" class="table table-striped" style = "display:none;">

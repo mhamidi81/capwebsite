@@ -11231,7 +11231,7 @@ td.small-width {
 }
 #page-title .breadcrumb > li + li:before {
   color: #007AFF;
-  content: "/ ";
+  content: " > ";
   padding: 0 5px;
 }
 #page-title.page-title-center {

@@ -60,15 +60,16 @@ class Message extends MessageManagmentAppModel {
 			'bindingKey' => 'email',
 			'fields' => '',
 			'order' => ''
-		),
-		'Recipient' => array(
-			'className' => 'UserManagment.AllUser',
-			'foreignKey' => false,
-			'bindingKey' => 'email',
-			'conditions' => array('Recipient.email = Message.email_to'),
-			'fields' => '',
-			'order' => ''
 		)
+// 		,
+// 		'Recipient' => array(
+// 			'className' => 'UserManagment.AllUser',
+// 			'foreignKey' => false,
+// 			'bindingKey' => 'email',
+// 			'conditions' => array('Recipient.email = Message.email_to'),
+// 			'fields' => '',
+// 			'order' => ''
+// 		)
 	);
 /**
  * afterSave

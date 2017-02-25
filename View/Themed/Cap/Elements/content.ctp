@@ -44,7 +44,7 @@
 					<div class="column-service-title-wrapper">
 						<div class="span4 fp-two">
 							<div class="widget-front">
-								<h2>2 - Completer votre profil </h2>
+								<h2>2 - Completer votre profile </h2>
 								<div class="thumb-wrapper ">
 									<a class="round-div" href="#" title="Déposer votre dossier"></a>
 								 <?php  echo $this->Html->image('request.jpg', array('style' => 'width:auto; height:250px;left: 2px; top: 1px;')); ?>

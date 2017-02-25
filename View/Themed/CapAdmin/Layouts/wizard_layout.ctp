@@ -76,17 +76,17 @@
 												<div class="row">
 													<div class="col-sm-8">
 														<h1 class="mainTitle">Dépot du dossier </h1>
-														<span class="mainDescription">Cette interface vous permet de déposer une demande d'agéement, chaque étape sera sauvegardée apres avoir passé à la prochaine.</span>
+														<span class="mainDescription">Cette interface vous permet de déposer une demande d'agréement, chaque étape sera sauvegardée apres avoir passé à la prochaine.</span>
 													</div>
 													<ol class="breadcrumb">
 														<li>
 															<?php echo $this->Html->link('<span class = "ti-home"></span>  Accueil', '/', array('escape' => false)); ?>
 														</li>
 														<li>
-															<?php echo $this->Html->link('Espace Conseillers', '/home', array('escape' => false)); ?>
+															<?php echo $this->Html->link('<span class = "ti-user"></span> Espace Conseillers', '/home', array('escape' => false)); ?>
 														</li>
 														<li class="active">
-															<span>Dépot du dossier</span>
+															<span class = "ti-folder"></span> <span>Dépot du dossier</span>
 														</li>
 													</ol>
 												</div>
