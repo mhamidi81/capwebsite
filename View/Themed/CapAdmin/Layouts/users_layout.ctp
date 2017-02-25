@@ -78,7 +78,7 @@
 				</div> <!-- header wrapper container -->
 				<div class="body-wrapper  main-content boxed-style" >
 					<div class="row">
-						<div class="col-md-12" style = "padding:100px 0;">
+						<div class="col-md-12" style = "padding:10px 0;">
 							<?php
 								echo $this->Layout->sessionFlash();
 								echo $content_for_layout;
