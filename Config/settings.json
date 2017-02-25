@@ -30,7 +30,7 @@
         "version": "2.2.2"
     },
     "Hook": {
-        "bootstraps": "Settings,Comments,Nodes,Meta,Menus,Users,Blocks,Taxonomy,FileManager,Wysiwyg,Ckeditor,ProfileManagment,CapMaroc,ClearCaches,AddressesManagement,UserManagment,RequestManagment,CompanyManagment,MessageManagment,MeioUpload"
+        "bootstraps": "Settings,Comments,Nodes,Contacts,Meta,Menus,Users,Blocks,Taxonomy,FileManager,Wysiwyg,Ckeditor,ProfileManagment,CapMaroc,ClearCaches,AddressesManagement,UserManagment,RequestManagment,CompanyManagment,MessageManagment,MeioUpload"
     },
     "Access Control": {
         "autoLoginDuration": "+1 week",
