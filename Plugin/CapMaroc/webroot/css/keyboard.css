@@ -1,0 +1,90 @@
+#keyboard { 
+	position: absolute; 
+	display: none; 
+	border: 1px solid #ccc; 
+	width: 560px; 
+	padding: 10px; 
+	cursor: move; 
+	background: #eee;
+        z-index: 1000;
+}
+.keyboard_close {
+    /*background: url(../img/close.png) no-repeat scroll 0 0 transparent;*/
+    background: url('../img/sprite_botolati.png') no-repeat -359px 0; width: 27px; height: 29px;
+    cursor: pointer;
+    position: absolute;
+    right: -12px;
+    top: -12px;
+    z-index: 100006;
+}
+.keyboard-icon{
+width:53px;
+height:23px;
+float:right;
+display:block;
+background: url('../img/sprite_botolati.png') no-repeat -205px -55px; width: 38px; height: 23px;
+/*background: url(../img/keyboard-icon3.gif) no-repeat scroll 0 0 transparent;*/
+cursor: pointer;
+}
+.vkeyboard_float{
+float:right;
+}
+.clear{clear:both;}
+.keyboard {
+margin: 0;
+padding-top: 5px;
+list-style: none;
+}
+.letter,.symbol{font-size:16px;}
+.clear{clear:both;}
+	.keyboard li {
+	float: left;
+	font-weight:bold;
+	margin: 0 5px 5px 0;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #fff;
+	border: 1px solid #f9f9f9;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}
+		.capslock, .tab, .left-shift {
+		clear: left;
+		}
+			.keyboard .tab, .keyboard .delete {
+			width: 70px;
+			}
+			.keyboard .capslock {
+			width: 80px;
+			}
+			.keyboard .return {
+			width: 70px;
+			}
+			.keyboard .left-shift {
+			width: 100px;
+			}
+			.keyboard .right-shift {
+			width: 107px;
+			}
+		.lastitem {
+		margin-right: 0;
+		}
+		.uppercase {
+		text-transform: uppercase;
+		}
+		.keyboard .space {
+		clear: left;
+		width: 551px;
+		}
+		.keyboard .on {
+		display: none;
+		}
+		.keyboard li:hover {
+		position: relative;
+		top: 1px;
+		left: 1px;
+		border-color: #e5e5e5;
+		cursor: pointer;
+		}

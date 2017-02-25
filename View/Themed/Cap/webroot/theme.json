@@ -1,0 +1,35 @@
+{
+	"name" : "Defer Theme",
+	"description" : "Default theme for Defer Website",
+	"screenshot" : "screenshot.png",
+
+	"author" : "Khalid Dalily",
+	"authorEmail" : "k.dalily@gmail.com",
+	"authorUrl" : "http://www.manarsystem.com",
+
+	"menus" : [
+		"main",
+		"footer_clouds",
+		"footer_share",
+		"footer_quicklinks",
+		"footer_about"
+	],
+
+	"regions" : [
+		"block1",
+		"block2",
+		"block3",
+		"footer"
+	],
+
+	"settings" : {
+		"icons": {
+			"translate": "flag"
+		},
+		"css" : {
+			"container" : "container-fluid",
+			"row" : "row-fluid",
+			"tableClass" : "table table-stripped"
+		}
+	}
+}

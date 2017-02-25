@@ -1,0 +1,33 @@
+{
+	"name" : "CAP MAroc Theme",
+	"description" : "Default theme for CAP Website",
+	"screenshot" : "screenshot.png",
+
+	"author" : "Khalid Dalily",
+	"authorEmail" : "k.dalily@gmail.com",
+	"authorUrl" : "http://www.manarsystem.com",
+
+	"menus" : [
+		"main",
+		"footer_clouds",
+		"footer_share",
+		"footer_quicklinks",
+		"footer_about"
+	],
+
+	"regions" : [
+		"right",
+		"footer"
+	],
+
+	"settings" : {
+		"icons": {
+			"translate": "flag"
+		},
+		"css" : {
+			"container" : "container-fluid",
+			"row" : "row-fluid",
+			"tableClass" : "table table-stripped"
+		}
+	}
+}

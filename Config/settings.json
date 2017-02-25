@@ -1,0 +1,87 @@
+{
+    "Site": {
+        "acl_plugin": "Acl",
+        "asset_timestamp": 0,
+        "admin_theme": "",
+        "email": "you@your-site.com",
+        "feed_url": "",
+        "home_url": "",
+        "ipWhitelist": "127.0.0.1",
+        "locale": "fra",
+        "status": 1,
+        "tagline": "Ministère de l’Agriculture et de la Pêche maritime, devenir conseiller agricole agrée",
+        "theme": "CapAdmin",
+        "timezone": "UTC",
+        "title": "Ministère de l’Agriculture et de la Pêche maritime",
+        "direction": "ltr",
+        "is_responsive": 1
+    },
+    "Croogo": {
+        "Api": {
+            "path": "api"
+        },
+        "dashboardUrl": {
+            "admin": true,
+            "plugin": "extensions",
+            "controller": "extensions_dashboard",
+            "action": "index"
+        },
+        "installed": 1,
+        "version": "2.2.2"
+    },
+    "Hook": {
+        "bootstraps": "Settings,Comments,Nodes,Meta,Menus,Users,Blocks,Taxonomy,FileManager,Wysiwyg,Ckeditor,ProfileManagment,CapMaroc,ClearCaches,AddressesManagement,UserManagment,RequestManagment,CompanyManagment,MessageManagment,MeioUpload"
+    },
+    "Access Control": {
+        "autoLoginDuration": "+1 week",
+        "models": "",
+        "multiRole": 0,
+        "multiColumn": 1,
+        "rowLevel": 0
+    },
+    "Comment": {
+        "date_time_format": "d F Y à H:i:s",
+        "email_notification": 0,
+        "feed_limit": 10,
+        "level": 0
+    },
+    "Meta": {
+        "description": "Croogo - A CakePHP powered Content Management System",
+        "generator": "Croogo - Content Management System",
+        "keywords": "croogo, Croogo",
+        "robots": "index, follow"
+    },
+    "Reading": {
+        "date_time_format": "D, M d Y H:i",
+        "nodes_per_page": 5
+    },
+    "Service": {
+        "akismet_key": "your-key",
+        "akismet_url": "http://your-blog.com",
+        "recaptcha_private_key": "6Ldlrg4TAAAAAK-w5XLajhMqXGuJseav3Py5hjbA",
+        "recaptcha_public_key": "6Ldlrg4TAAAAAJhW7Iu_FrbruV8ACT6zDfiMXHkU",
+        "register_recaptcha": 0
+    },
+    "Writing": {
+        "wysiwyg": 1
+    },
+    "Social": {
+        "facebook": "https://www.facebook.com/1038118219553213",
+        "twitter": "#",
+        "youtube": "https://www.youtube.com/channel/UCcNkcTBiwetIyWO50zjjNPg",
+        "vimeo": "#",
+        "rss": "#",
+        "skype": "#",
+        "flickr": "#",
+        "pinterest": "#",
+        "linkedin": "#",
+        "google_plus": "https://plus.google.com/u/0/b/101654365732914197245/101654365732914197245/"
+    },
+    "Address": {
+        "email": "contact@cap-maroc.ma",
+        "address": "Station D'bagh-Avenu Hassan II",
+        "phone": "0530 10 32 29 / 0530 10 31 79",
+        "fax": "05 37 69 94 41",
+        "ville": "Rabat"
+    }
+}

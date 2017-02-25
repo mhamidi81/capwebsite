@@ -1,0 +1,14 @@
+{
+	"name": "MeioUpload",
+	"description": "Upload images",
+
+	"author": "Khalid dalily",
+	"authorEmail": "k.dalily@gmail.com",
+	"authorUrl": "http://www.dalily-web.blogspot.com",
+
+	"dependencies": {
+		"plugins": [
+			"extensions"
+		]
+	}
+}
