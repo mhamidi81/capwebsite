@@ -5,7 +5,7 @@
 				$this->Html->image('logo.png', array(
 						'alt' => Configure::read('Site.title'),
 						'title' => Configure::read('Site.title'),
-						'style' => 'height: 80px;margin-top: 16px;margin-left: 16px;'
+						'style' => 'height: 80px;margin-top: 16px;margin-left: 23px;'
 					)
 				),
 				'/',

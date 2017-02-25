@@ -61,8 +61,8 @@
 		<div class="body-outer-wrapper">
 
 				
-				<div class="top-navigation-wrapper"></div>
-				<div class="header-wrapper  main">
+				<div class="top-navigation-wrapper boxed-style"></div>
+				<div class="header-wrapper boxed-style main">
 					<!-- Get Logo -->
 					<div class="boxed-style">
 						<?php echo $this->Regions->blocks('header'); ?>
