@@ -769,7 +769,7 @@ jQuery(document).ready(function() {
 	$('#MeetingAddDialog').on('shown.bs.modal', function (e) {
   		requestCrud.getData();
 		membersCrud.getData();
-	  	$('#AddMeetingName').val("Réunion de traitement des demandes d'agréement");
+	  	$('#AddMeetingName').val("Réunion de traitement des demandes d'agrément");
 	  	$('#AddMeetingEventDate').val('');
 	});
 
@@ -876,7 +876,7 @@ jQuery(document).ready(function() {
 								<div class="stepNumber">
 									2
 								</div>
-								<span class="stepDesc"> <small> Demandes d'agréement </small></span>
+								<span class="stepDesc"> <small> Demandes d'agrément </small></span>
 							</a>
 						</li>
 						<li>
@@ -905,7 +905,7 @@ jQuery(document).ready(function() {
 								'id' => 'AddMeetingName',
 								'type' => 'text',
 								'required' => true,
-								'value' => "Réunion de traitement des demandes d'agréement"
+								'value' => "Réunion de traitement des demandes d'agrément"
 							));
 							echo $this->Form->input('Message', array(
 								'label' => __d('request_managment', 'Description'),
@@ -929,7 +929,7 @@ jQuery(document).ready(function() {
 								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 									<span aria-hidden="true">×</span>
 								</button>
-								Séléctionner svp les demandes d'agréement à traiter!
+								Séléctionner svp les demandes d'agrément à traiter!
 								
 							</div>
 							<table id="request_datagrid" class="display table-bordered"></table>

@@ -5,7 +5,7 @@ $this->viewVars['title_for_layout'] = __d('request_managment', 'Requests');
 
 $this->Html
 	->addCrumb('', '/admin', array('icon' => 'home'))
-	->addCrumb(__d('request_managment', "Demandes d'agréement"), array('action' => 'index'));
+	->addCrumb(__d('request_managment', "Demandes d'agrément"), array('action' => 'index'));
 ?>
 <?php echo $this->Html->script(array('../plugins/Chart.js/Chart.min.js'), array('block' => 'scriptBottom'));?>
 <script>

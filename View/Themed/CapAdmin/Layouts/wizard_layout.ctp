@@ -76,7 +76,7 @@
 												<div class="row">
 													<div class="col-sm-8">
 														<h1 class="mainTitle">Dépot du dossier </h1>
-														<span class="mainDescription">Cette interface vous permet de déposer une demande d'agréement, chaque étape sera sauvegardée apres avoir passé à la prochaine.</span>
+														<span class="mainDescription">Cette interface vous permet de déposer une demande d'agrément, chaque étape sera sauvegardée apres avoir passé à la prochaine.</span>
 													</div>
 													<ol class="breadcrumb">
 														<li>

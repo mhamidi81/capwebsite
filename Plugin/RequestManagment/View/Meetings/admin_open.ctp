@@ -1048,7 +1048,7 @@ var Meeting = <?php echo json_encode($meeting['Meeting']); ?>;
 					<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 						<span aria-hidden="true">×</span>
 					</button>
-					Séléctionner svp les demandes d'agréement à traiter!
+					Séléctionner svp les demandes d'agrément à traiter!
 					
 				</div>
 				<table id="pending_request_datagrid" class="display table-bordered"></table>

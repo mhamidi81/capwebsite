@@ -57,7 +57,7 @@
 						).' / ';						
 					}
 
-					echo $this->Html->link('<i class = "ti-unlock"></i> Se déconnecter',
+					echo $this->Html->link('<i class = "ti-unlock"></i> Déconnexion',
 						array(
 							'plugin' => 'users',
 							'controller' => 'users',

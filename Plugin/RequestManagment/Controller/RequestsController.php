@@ -305,7 +305,7 @@ function beforeFilter() {
  */
 	public function admin_save_request_decision() {
 		
-		$message =__d('request_managment', "Une erreur est survenue lors de l'abrobation de l'agréement! ");
+		$message =__d('request_managment', "Une erreur est survenue lors de l'abrobation de l'agrément! ");
 		$result = 'error';
 		
 		if(isset($this->request['data']['Request']['request_id'])  && !empty($this->request['data']['Request']['judgment'])){
@@ -322,14 +322,14 @@ function beforeFilter() {
 				if($judgment == 'Favorable')
 				{
 					if($this->Request->setStatus('granted', $id, $description)){
-						$message = __d('request_managment', "L'agréement a été abrobé au bénéficiaire avec succès");
+						$message = __d('request_managment', "L'agrément a été abrobé au bénéficiaire avec succès");
 						$result = 'success';
 					}
 				}
 				elseif($judgment == 'Défavorable')
 				{
 					if($this->Request->setStatus('rejected', $id, $description)){
-						$message = __d('request_managment', "L'agréement a été abrobé au bénéficiaire avec succès");
+						$message = __d('request_managment', "L'agrément a été abrobé au bénéficiaire avec succès");
 						$result = 'success';
 					}
 				}

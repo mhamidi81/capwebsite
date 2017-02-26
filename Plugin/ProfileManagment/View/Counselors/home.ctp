@@ -160,7 +160,7 @@
 			<ul class="nav nav-tabs tab-padding tab-space-3 tab-blue" id="myTab4" style = "margin-left: 0px;">
 				<li class="active">
 					<a data-toggle="tab" href="#panel_overview">
-						Mes demandes d'agréement
+						Mes demandes d'agrément
 					</a>
 				</li>
 				<li>
@@ -199,7 +199,7 @@
 							<tr>
 								<td colspan = "6">
 									<h3 class="mainTitle" style = "text-align:center;">
-									<i class = "ti-face-sad fa-2x" style = "  font-size: 25px;"></i>	Vous n'avez envoyé aucune demande d'agréement
+									<i class = "ti-face-sad fa-2x" style = "  font-size: 25px;"></i>	Vous n'avez envoyé aucune demande d'agrément
 									</h3>
 								</td>
 							</tr>
@@ -412,7 +412,7 @@
 		<ul class="margin-bottom-10">
 			<li>Vous pouvez seulement déposer une seule demande à la fois.</li>
 			<li>On devera recevera le dossier papier dans un délai d'un mois sinon votre dossier enligne sera rejeté.</li>
-			<li>Si votre demande d'agréement a été refusée pour une raison ou bien d'une autre vous pouvez renvoyer une autre demande via le même compte aprés un délais de 3 mois.</li>
+			<li>Si votre demande d'agrément a été refusée pour une raison ou bien d'une autre vous pouvez renvoyer une autre demande via le même compte aprés un délais de 3 mois.</li>
 			<li>Toute essaye de triche ou de dépassement des régles de dépôt votre compte sera définitivement banni.</li>     
 		</ul>
 	</div>

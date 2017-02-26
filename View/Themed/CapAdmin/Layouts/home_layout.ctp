@@ -106,7 +106,7 @@
 					<div class="row">
 						<div class="col-sm-8">
 							<h1 class="mainTitle"><i class = "ti-user"></i> Espace Conseillers </h1>
-							<span class="mainDescription">Cette interface vous permet de déposer une demande d'agréement, ainsi de suivre la progression de votre dossier.</span>
+							<span class="mainDescription">Cette interface vous permet de déposer une demande d'agrément, ainsi de suivre la progression de votre dossier.</span>
 						</div>
 						<ol class="breadcrumb">
 							<li>
