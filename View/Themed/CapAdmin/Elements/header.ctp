@@ -5,7 +5,7 @@
 				$this->Html->image('logo.png', array(
 						'alt' => Configure::read('Site.title'),
 						'title' => Configure::read('Site.title'),
-						'style' => 'height: 80px;margin-top: 16px;margin-left: 0px;'
+						'style' => 'height: 80px;margin-top: 16px;margin-left: 23px;'
 					)
 				),
 				'/',
@@ -17,10 +17,10 @@
 <div class="logo-right-text">	
 	<div class="top-search-wrapper" >
 		<?php
-			echo $this->Html->image('trone.gif', array(
+			echo $this->Html->image('trone.png', array(
 					'alt' => Configure::read('Site.title'), 
 					'title' => Configure::read('Site.title'), 
-					'style' => 'height: 80px;'
+					'style' => 'height: 80px; margin-top: 16px;'
 				)
 			);
 		?>
