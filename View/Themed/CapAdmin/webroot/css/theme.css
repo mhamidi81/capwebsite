@@ -423,6 +423,7 @@ legend {
 a:hover{text-decoration: none !important;cursor: pointer;}
 div.message-box-wrapper {
     margin-left: 28px;
+    border-radius: 5px;
 }
 ul {list-style-type: none;}
 ul li{line-height: 25px;}
