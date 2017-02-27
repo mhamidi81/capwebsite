@@ -42,7 +42,7 @@ class EmailConfig {
 	public $default = array(
 			'transport' => 'Smtp',
 			'from' => array('contact@cap-maroc.ma' => 'cap agriculture'),
-			'host' => 'mail.cap-maroc.ma',
+			'host' => 'cap-maroc.ma',
 			'port' => 25,
 			'timeout' => 120,
 			'username' => 'contact@cap-maroc.ma',

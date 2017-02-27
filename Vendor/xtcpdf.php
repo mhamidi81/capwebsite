@@ -34,7 +34,7 @@ class XTCPDF  extends TCPDF {
         file_put_contents($tmp_image, $data);
         $this->Image($tmp_image, 173,4, 50,30, 'PNG', '', 'L', false, false, 600, false, false, '' , true, false, false);*/
         
-        $data = file_get_contents("http://localhost/capwebsite/barcode.php?text=".$this->uniquekey.'&size=100');
+        $data = file_get_contents("http://localhost/cap/barcode.php?text=".$this->uniquekey.'&size=100');
         file_put_contents($tmp_image, $data);
         $this->Image($tmp_image, 119,10, 0,20, 'PNG', '', 'L', false, false, 600, false, false, '' , true, false, false);
         unlink($tmp_image);          
