@@ -147,7 +147,7 @@
 
 		<li class="next <?php if(in_array(3, $active_steps)) {echo 'current';}elseif(max($active_steps) > 3) {echo 'passed';}   ?>">Imprimer et légaliser les documents</li>
 
-		<li class="<?php if(in_array(4, $active_steps)) {echo 'current';}elseif(max($active_steps) > 4) {echo 'passed';}   ?>">Envoyer le dossier papier via la poste</li>
+		<li class="<?php if(in_array(4, $active_steps)) {echo 'current';}elseif(max($active_steps) > 4) {echo 'passed';}   ?>">Déposer le dossier à la DEFR / Envoyer par poste</li>
 
 		<li class="<?php if(in_array(5, $active_steps)) {echo 'current';}elseif(max($active_steps) > 5) {echo 'passed';}   ?>">Suivre votre demande enligne</li>
 
@@ -191,7 +191,7 @@
 								<th class="hidden-xs">Date de dépot</th>
 								<th class="hidden-xs">Progression (%) </th>
 								<th class="hidden-xs center">Statut</th>
-								<th class="hidden-xs center">Documents</th>
+								<th class="hidden-xs center">DH & CV</th>
 							</tr>
 						</thead>
 						<tbody>
